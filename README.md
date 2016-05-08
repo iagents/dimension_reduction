@@ -4,6 +4,6 @@ To use this code, check whether your local machine has <b>Eigen</b> and <b>OpenC
 <ol>
 <li>Get a copy of this project: git clone https://github.com/iagents/Dimension_Reduction.git dimension_reduction</li>
 <li>build: cmake -G "Unix Makefiles" ..; make</li>
-<li>./LDA</li>
+<li>./dimred</li>
 </ol>
 
