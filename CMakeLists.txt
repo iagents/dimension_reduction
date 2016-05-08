@@ -1,6 +1,5 @@
-#This is an implementation of the LDA (Linear Discriminant Analysis) in C++.
 CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
-PROJECT(LDA)
+PROJECT(DIMENSION_REDUCTION)
 
 ############################## Eigen ##############################
 # Locations to search for Eigen
@@ -25,5 +24,5 @@ FIND_PACKAGE(OpenCV REQUIRED)
 
 INCLUDE_DIRECTORIES(BEFORE ${PROJECT_SOURCE_DIR}/include
 					${EIGEN_INCLUDE})
-ADD_EXECUTABLE(LDA src/Main.cpp src/DimReduction.cpp)
-TARGET_LINK_LIBRARIES(LDA ${OpenCV_LIBS})
+ADD_EXECUTABLE(dimred src/main.cpp src/dimension_reduction.cpp)
+TARGET_LINK_LIBRARIES(dimred ${OpenCV_LIBS})
