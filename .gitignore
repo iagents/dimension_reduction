@@ -1,0 +1,5 @@
+# anything under build directory
+build/
+
+# emacs scratch file
+*.~
